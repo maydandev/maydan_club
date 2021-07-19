@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/uwqntyvfp2iw/public_html/club.maydan.club
+    - /bin/cp -r * $DEPLOYPATH
+
